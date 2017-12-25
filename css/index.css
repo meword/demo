@@ -1,0 +1,257 @@
+#header .topbar {
+  border-bottom: 1px solid #cccccc;
+}
+#header .topbar .row > div {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+}
+#header .topbar .row > div + div {
+  border-left: 1px solid #ccc;
+}
+#header .topbar .row > div a.qr-code {
+  display: block;
+}
+#header .topbar .row > div a.qr-code:hover > img {
+  display: block;
+}
+#header .topbar .row > div a.qr-code > img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: 999;
+}
+#header .topbar .row > div a {
+  color: #666;
+}
+#header .topbar .row > div > .btn-danger {
+  background-color: #e92322;
+}
+#header .navbar-default {
+  z-index: 60;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  margin-bottom: 0px;
+}
+#header .navbar-default .container a {
+  height: 80px;
+  line-height: 50px;
+}
+#header .navbar-default .container .navbar-header .icon-icon {
+  font-size: 30px;
+  color: #e92322;
+}
+#header .navbar-default .container .navbar-header .icon-logo {
+  font-size: 30px;
+  color: #000;
+}
+#header .navbar-default .container .navbar-collapse .active a {
+  background-color: #fff;
+  border-bottom: 2px solid #e92322;
+}
+#header .navbar-default .container .navbar-collapse a:hover {
+  border-bottom: 2px solid #e92322;
+}
+#slide .item > a {
+  display: block;
+  height: 410px;
+  background-position: center;
+}
+#slide .item > img {
+  width: 100%;
+}
+#payment {
+  background-color: #ffffff;
+}
+#payment .row {
+  padding: 30px 0;
+}
+#payment .row .media {
+  margin-top: 10px  ;
+}
+#payment .row .media > a {
+  color: #666;
+  text-decoration: none;
+}
+#payment .row .media > a:hover {
+  color: #e92322;
+}
+#booking {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+#products {
+  background-color: #cccccc;
+  padding: 40px 0;
+}
+#products .container .tabs {
+  overflow: hidden;
+}
+#products .container .tabs .nav-tabs {
+  width: 590px;
+}
+#products .container .tabs .nav-tabs .active {
+  background-color: transparent;
+  border-bottom: 3px solid #e92322;
+}
+#products .container .tabs .nav-tabs .active > a {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom-color: #cccccc;
+}
+#products .container .tabs .nav-tabs a {
+  font-size: 16px;
+  color: #333;
+}
+#products .container .tabs .nav-tabs a:hover {
+  background-color: #cccccc;
+  border-color: transparent;
+}
+#products .container .tab-content .row > div {
+  margin-top: 20px;
+}
+#products .container .tab-content .row > div.active .product {
+  background-color: #e92322;
+  color: #fff;
+}
+#products .container .tab-content .row > div.active .product .product-left::before {
+  content: "\e915";
+  font-family: 'itcast';
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: -6px;
+}
+#products .container .tab-content .row > div .product {
+  background-color: #fff;
+}
+#products .container .tab-content .row > div .product .product-left {
+  position: relative;
+  padding: 10px;
+  margin-right: 120px;
+  border-right: 1px dashed #ccc;
+  height: 160px;
+}
+#products .container .tab-content .row > div .product .product-left .row {
+  margin: 0;
+}
+#products .container .tab-content .row > div .product .product-left .row > div {
+  margin-top: 5px;
+  padding: 0px;
+}
+#products .container .tab-content .row > div .product .product-left .row > div p {
+  margin-bottom: 0;
+}
+#products .container .tab-content .row > div .product .product-right {
+  position: relative;
+  float: right;
+  padding: 40px 0;
+  width: 120px;
+  height: 160px;
+}
+#products .container .tab-content .row > div .product .product-right:before,
+#products .container .tab-content .row > div .product .product-right:after {
+  position: absolute;
+  left: -8px;
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+#products .container .tab-content .row > div .product .product-right:before {
+  top: -8px;
+}
+#products .container .tab-content .row > div .product .product-right:after {
+  bottom: -8px;
+}
+#products .container .tab-content .row > div .product .product-right .toolstips1 {
+  padding: 0;
+  color: #e92322;
+  border-color: #e92322;
+}
+#products .container .tab-content .row > div .product .product-right .toolstips2 {
+  padding: 0;
+  border-color: #0f0;
+  color: #0f0;
+}
+#products .container .tab-content .row > div .product .product-right strong {
+  font-size: 30px;
+}
+#news {
+  padding: 40px 0;
+}
+#news .container .row > div.col-md-2 > h4 {
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+}
+#news .container .row > div.col-md-2 > h4::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  right: -10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+#news .container .row > div.col-md-1 > .nav-tabs {
+  border-bottom: none;
+}
+#news .container .row > div.col-md-1 > .nav-tabs li {
+  margin-bottom: 10px;
+}
+@media (max-width: 992px) {
+  #news .container .row > div.col-md-1 > .nav-tabs li {
+    width: 25%;
+  }
+}
+#news .container .row > div.col-md-1 > .nav-tabs li.active a {
+  background-color: #e92322;
+}
+#news .container .row > div.col-md-1 > .nav-tabs li a {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+}
+@media (max-width: 992px) {
+  #news .container .row > div.col-md-1 > .nav-tabs li a {
+    margin: 0 auto;
+  }
+}
+#news .container .row > div.col-md-1 > .nav-tabs li a:hover {
+  background-color: #e92322;
+}
+#news .container .row > div.col-md-1 > .nav-tabs li a i {
+  color: #ccc;
+  font-size: 30px;
+}
+#news .container .row > div.col-md-7 > div ul li {
+  line-height: 40px;
+  list-style: none;
+}
+#partner .container > ul > li {
+  float: left;
+  list-style-type: none;
+  width: 11.11111111%;
+  text-align: center;
+}
+#partner .container > ul > li > a {
+  text-decoration: none;
+}
+#partner .container > ul > li > a:hover > i {
+  color: #e92322;
+}
+#partner .container > ul > li > a > i {
+  font-size: 60px;
+  color: #666;
+}
+#myModal {
+  z-index: 9999;
+}
